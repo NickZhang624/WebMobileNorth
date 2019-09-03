@@ -1,0 +1,88 @@
+/*format the card format*/
+.card1{
+     top:80px;
+	 left:40%;
+     position:relative;
+     float:left;
+     margin-left:100px;
+	 box-shadow:0px 0px 0px 0px #888888;
+	 border-style:none;
+}
+.card2{
+     top:100px;
+	 left:17%;
+     position:relative;
+     float:left;
+	 margin-left:100px;
+	 box-shadow:0px 0px 0px 0px #888888;
+	 border-style:none;
+}
+.card3{
+     top:120px;
+	 left:-20%;
+     position:relative;
+     float:left;
+	 margin-left:100px;
+	 box-shadow:0px 0px 0px 0px #888888;
+	 border-style:none;
+}
+/*style the font under the card*/
+.card-introduction{
+     padding:10px;
+     font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+/*style the background color and size*/
+.card-inside{
+     width:180px;
+	 height:199px;
+	 background:#ff8000;
+}
+.card-inside1{
+     width:180px;
+	 height:199px;
+	 background:#0080ff;
+}
+.card-inside2{
+     width:180px;
+	 height:198px;
+	 background:#00cc66;
+}
+.image {
+     transition: .5s ease;/*a transition effect with 0.5s ease*/ 
+     padding:20px;	 
+}
+.middle {
+     transition: .5s ease;/*a transition effect on font with 0.5s ease*/ 
+     opacity: 0;/*opacity the font if no mouse over*/
+     position: absolute;
+     top: 35%;
+     left: 55%;
+     transform: translate(-50%, -50%);/*set the whole area in the middle*/
+     -ms-transform: translate(-50%, -50%)
+}
+/*style the text format when mouse move to here */
+.text{
+     color: white;
+     font-size: 25px;
+     font-weight:bold;
+}
+/*style the hover interactivity when mouse move to here*/
+.card1:hover .image {
+     opacity: 0.3;/*opacity style the image*/
+}
+/*style the hover interactivity when mouse move to here*/
+.card1:hover .middle {
+     opacity: 1;/*opacity style the middle text*/
+}
+.card2:hover .image {
+     opacity: 0.3;
+}
+.card2:hover .middle {
+     opacity: 1;
+}
+.card3:hover .image {
+     opacity: 0.3;
+}
+.card3:hover .middle {
+     opacity: 1;
+}

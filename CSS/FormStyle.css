@@ -1,0 +1,97 @@
+/*style the form*/
+form{
+     font-family:"Comic Sans MS", cursive, sans-serif;
+	 border:none;
+	 padding:0px;/*space between form edge and objects inside*/
+	 
+}
+/*style the text area*/
+input[type="text"]{
+     font-family:Tahoma, Geneva, sans-serif;
+	 width:100%;/*width of the text area to follow the width of form*/
+	 border: 1px solid #ccc;
+     padding: 15px;/*the height of text box */
+     margin: 10px 0;/*space between first name and text box*/
+     background-color: #EBEBEB;
+}
+/*style the placeholder text*/
+::placeholder{
+     color:#868686;/*font color*/
+     font-style:italic;
+	 font-size:12px;
+}
+/*style the comment area */
+textarea{
+     font-family:Tahoma, Geneva, sans-serif;
+     margin: 10px 0;/*space between first name and text box*/
+	 width:107%;
+     height:190px;/*default height when user open the web*/
+	 border: 1px solid #ccc;
+     background-color: #EBEBEB;
+     resize:vertical;/*comment text box area only allow to resize vertical */
+}
+/*Style the button area*/
+input[type="submit"]{
+     font-family:"Comic Sans MS", cursive, sans-serif;
+     color: black;
+     padding: 16px 32px;
+     -webkit-transition-duration: 0.4s; /* Safari */
+     transition-duration: 0.4s;
+     cursor: pointer;/*change the cursor style when user move to this area*/
+	 background-color: white;
+     border:none;
+	 font-size:20px;
+	 font-weight:bold;
+}
+/*style the submit area when user move to here*/
+input[type="submit"]:hover{
+     background-color: #ffa31a;
+     color: white;
+}
+/*style the reset area*/
+input[type="reset"]{
+    font-family:"Comic Sans MS", cursive, sans-serif;
+    color: black;
+    padding: 16px 32px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;/*display the pointer when mouse move to here*/
+    background-color: white;
+    border:none;
+    font-size:20px;
+    font-weight:bold;
+}
+/*style the reset area by hover interactivity*/
+input[type="reset"]:hover{
+     background-color: #ffa31a;
+     color: white;
+}
+
+/*style the fieldset area*/
+fieldset {
+     width:400px;
+     height:700px;
+     padding-top:1em;/*to adjust the distance between content and border*/
+	 padding-bottom:1em;
+     padding-left: 1em;
+     padding-right:3em;
+	 margin-left:15%;
+	 float:left;
+}
+/*style the legend font*/
+legend{
+     font-size: 20px;
+     font-family:"Comic Sans MS", cursive, sans-serif;
+     font-weight:bold;
+}
+/*style the font of contact details*/
+p{
+     text-align:center;
+	 font-family:Tahoma, Geneva, sans-serif; 
+	 font-size:20px;}
+/*style the font of contact details*/
+h5{
+     text-align:center;
+	 font-family:Tahoma, Geneva, sans-serif; 
+	 font-size:16px;
+}

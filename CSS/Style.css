@@ -1,0 +1,120 @@
+/*style the whole page font and background color*/
+body{
+	 background-image:linear-gradient(#cccccc,white,white,white,white,white,white,white,white,white),url("../Image/OnlineLogo.png");/*gradient style and image*/
+	 background-repeat:repeat-x,no-repeat;/*linear gradient only horizontally, image not repeat*/
+	 background-attachment: scroll;/*to scroll with the whole page*/
+	 background-blend-mode: multiply;/*exist more then two contents in the page*/
+     background-position:50% 0%;/*set a image position in the page*/
+}
+/*custom font style*/
+@font-face{
+	font-family:custom_font;
+	src:url('White On Black.ttf');
+}
+h1{
+     font-family:custom_font;
+}
+h2{
+	 font-family:custom_font;
+}
+/*style the navigation area*/
+nav ul{
+     list-style-type:none;
+	 background-color:none;
+	 text-align:center;
+	 padding:0px;
+	 margin-top:350px;/*the distance between web margin and navigation bar*/
+	 width:100%;
+}
+/*Style the navigation bar*/
+nav li{
+     display:inline;
+	 line-height:40px;
+}
+/*style the navigation text area*/
+nav li a{
+     display:inline;
+	 color:black;
+	 padding:10px 16px;
+	 text-decoration:none;
+	 font-family:"Comic Sans MS", cursive, sans-serif;
+	 font-size:20px;
+	 font-weight:900;
+}
+/*style the navigation text area with hover interactivity*/
+nav li a:hover {
+     background-color: #ffa31a;
+	 color: white;
+	 font-size:20px;
+	 font-weight: 900;
+}
+/*style the image */
+.img1 {
+     width: 1180px;
+     height: 350px;
+     border: 10px solid white;
+     box-sizing: border-box;/*border box make sure inside content to be inner fixed*/
+     float:left;
+	 margin-left:5px;
+     background-image:url("../Image/AccessoriesHomePage4.jpg");
+	 background-repeat:no-repeat;
+	 background-size:100%;
+	 background-position:25% 75%;
+}
+
+.img2 {
+     width: 350px;
+     height: 350px;    
+     padding: 0px;
+     border: 10px solid white;
+     box-sizing: border-box;
+	 background-image:url("../Image/AccessoriesHomePage10.jpg");
+	 background-size:170%;
+	 background-position:center;
+     float:left;
+}
+
+.img3 {
+     width: 350px;
+     height: 350px;    
+     padding: 0;
+     border:10px solid white;
+     box-sizing: border-box;
+     float:left;
+	 background-image:url("../Image/AccessoriesHomePage3.jpg");
+	 background-size:100%;
+}
+/*style the font in the border box*/
+.txt4 {
+     width: 350px;
+     height: 350px;    
+     padding: 0;
+     border: 10px solid white;
+     box-sizing: border-box;
+     float:left;
+	 margin-left:5px;
+	 text-align:left;
+	 padding-top:2em;/*distance between object and border line*/
+}
+.img5 {
+     width: 1180px;
+     height: 350px;
+     border: 10px solid white;
+     box-sizing: border-box;
+     float:left;
+     background-image:url("../Image/AccessoriesHomePage6.jpg");
+	 background-position:25% 75%;
+}
+.img6 {
+     width: 350px;
+     height: 350px;    
+     padding: 0;
+     border: 10px solid white;
+     box-sizing: border-box;
+     float:left;
+	 background-image:url("../Image/AccessoriesHomePage11.jpg");
+	 background-size:190%;
+	 background-position:center;
+}
+
+

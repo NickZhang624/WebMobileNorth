@@ -1,0 +1,116 @@
+/*format the product card*/
+.card{
+     position:relative;
+	 width:200px;
+	 border:1px #888 solid;
+	 border-radius:1px;
+	 float:left;/*keep the card follow the previous one*/
+	 box-shadow:2px 2px 2px 2px #888888;
+	 margin:50px 40px;/*distance with each card*/
+	 top:80px;/*distance between card and navigation bar area*/
+	 margin-left:100px;/*distance between card and web edge*/
+}
+/*style the product name*/
+.card-title{
+     padding:5px;
+     font-family:Tahoma, Geneva, sans-serif;
+}
+/*style the inner image area*/
+.card-inner{
+     width:200px;
+	 height:200px;
+	 background:white;
+}
+/*ensure the image can fill the whole element box*/
+.card img{
+     width:auto;
+	 height:auto;
+}
+/*style the area under the card inner area */
+.card-footer{
+     padding:5px;
+	 border-top:none;/*it can set a break line between card inner and card footer area*/
+	 overflow:auto;/*if the content is more than the footer default size, it will appear a scroll*/
+}
+/*style the add to cart area */
+.card-footer a{
+	 color:black;
+     text-decoration:none;/*remove the underline from ADD TO CART link*/
+	 font-family:Tahoma, Geneva, sans-serif; 
+}
+/*style the add to cart area when user move to this area, hover response*/
+.card-footer a:hover{
+     text-decoration:none;/*remove the underline from ADD TO CART link*/
+	 font-family:Tahoma, Geneva, sans-serif; 
+	 background-color:#ffa31a;
+	 color:white;
+	 font-weight:bold;
+	 padding:5px 10px;
+}
+/*style the price*/
+.card-footer span.price{
+     float:right;/*price move to the right of footer*/
+	 font-family:"Comic Sans MS", cursive, sans-serif;
+}
+
+/*style the total:$ font style under the shopping cart */
+.cart-footer p{
+     font-size:20px;
+	 font-family:Tahoma, Geneva, sans-serif;
+}
+
+/*style the total price amount under the shopping cart */
+#grandtotal{
+     color:red;
+	 font-size:20px;
+	 font-weight:bold;
+	 font-family:Tahoma, Geneva, sans-serif;
+}
+
+/*style the whole shopping cart area including the total amount*/
+#cart{
+     top:30px;/*area between the cart and the web top edge*/
+	 position:fixed;
+	 margin-left:1700px;	 
+}
+
+/*style the table list*/
+#cart-list{
+     padding-top:1em;
+     font-size:15px;
+	 font-weight:bold;
+	 font-family:Tahoma, Geneva, sans-serif;
+}
+	 
+/*style the button shopping cart style*/
+.buttonCart{
+     background-color: #4CAF50;
+     border: none;
+     color: white;
+	 font-family:"Comic Sans MS", cursive, sans-serif;
+     padding: 15px 32px;
+     text-align: center;
+     text-decoration: none;
+     font-size: 16px;   
+     cursor: pointer;
+}
+
+/*style the shopping cart it will appear shadow when user move the this area */
+.buttonCart1:hover{
+     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+	 font-size:17px;
+	 font-weight:bold;
+}
+/*paragraph formatting */
+p{  
+     text-align:center;
+	 font-family:Tahoma, Geneva, sans-serif; 
+	 font-size:20px;
+	 color:grey;
+}
+/*heading area formatting*/
+h6{
+     text-align:center;
+	 font-family:Tahoma, Geneva, sans-serif; 
+	 font-size:20px;
+}

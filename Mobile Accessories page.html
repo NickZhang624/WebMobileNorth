@@ -1,0 +1,173 @@
+<!--open html document-->
+<!DOCTYPE html>
+<!--head area setting-->
+<head>
+     <!--web title-->
+     <title>Mobile North Accessory Online Shop</title>
+	 <!--meta info-->
+     <meta name ="author" content="Nick">
+	 <meta name ="subject" content="this site is about Mobile North Accessory Online shop">
+	 <meta name ="keywords" content="mobile, accessory, iphone, samsung">
+	 <!--link to css stylesheet-->
+	 <link rel="stylesheet" href="css/CardStyle.css" type="text/css">
+	 <link rel="stylesheet" href="css/Style.css" type="text/css">	 
+</head>
+<body>
+<!--body area setting-->
+<nav>
+     <ul>
+	     <li><a href="Homepage.html">Home</a></li>
+         <li><a href="Mobile Accessories page.html">Mobile Accessories</a></li>
+	     <li><a href="Contact us page.html">Contact us</a></li>
+	     <li><a href="About us page.html">About us</a></li>
+	 </ul>
+</nav> 
+     <!--class a card area-->
+     <div class="card">
+      <!--give it a card inside area and image source-->
+	  <div class="card-inner">
+	   <img src="Image/product1.jpg" alt="iphone8 light blue"/>
+	    </div>
+	     <!--give it a card title-->
+	     <div class="card-title">
+	      <h4>IPhone8 Light-Blue</h4>
+	      </div>
+	     <!--class a card footer area and link to shopping cart by JS document -->
+	     <div class="card-footer">
+	    <a href="#/" class="add" data-price="35.00">Add to cart</a>
+	   <span class="price">$35.00</span>
+	  </div>
+     </div>
+
+     <div class="card">
+	  <div class="card-inner">
+	   <img src="Image/product2.jpg" alt="iphone8 red"/>
+	    </div>
+	     <div class="card-title">
+	      <h4>IPhone8 Red </h4>
+	      </div>
+	     <div class="card-footer">
+	    <a href="#/" class="add" data-price="30.00">Add to cart</a>
+	   <span class="price">$30.00</span>
+	  </div>
+     </div>
+
+     <div class="card">
+	  <div class="card-inner">
+	   <img src="Image/product3.jpg" alt="iphone8 pink"/>
+	    </div>
+	     <div class="card-title">
+	      <h4>IPhone8 Pink</h4>
+	      </div>
+	     <div class="card-footer">
+	    <a href="#/" class="add" data-price="33.00">Add to cart</a>
+	   <span class="price">$33.00</span>
+	  </div>
+     </div>
+
+     <div class="card">
+	  <div class="card-inner">
+	   <img src="Image/product4.jpg" alt="iphone8 maat black"/>
+	    </div>
+	     <div class="card-title">
+	      <h4>IPhone8 Matt-Black</h4>
+	      </div>
+	     <div class="card-footer">
+	    <a href="#/" class="add" data-price="40.00">Add to cart</a>
+	   <span class="price">$40.00</span>
+	  </div>
+     </div>
+
+	 <div class="card">
+	  <div class="card-inner">
+	   <img src="Image/product5.jpg" alt="iphone8 blue"/>
+	    </div>
+	     <div class="card-title">
+	      <h4>IPhone8 Blue</h4>
+	      </div>
+	     <div class="card-footer">
+	    <a href="#/" class="add" data-price="28.00">Add to cart</a>
+	   <span class="price">$28.00</span>
+	  </div>
+     </div>
+
+	 <div class="card">
+	  <div class="card-inner">
+	   <img src="Image/product6.jpg" alt="samsung note8 sliver"/>
+	    </div>
+	     <div class="card-title">
+	      <h4>Samsung Note8 Sliver</h4>
+	      </div>
+	     <div class="card-footer">
+	    <a href="#/" class="add" data-price="70.00">Add to cart</a>
+	   <span class="price">$70.00</span>
+	  </div>
+     </div>
+
+	 <div class="card">
+	  <div class="card-inner">
+	   <img src="Image/product7.jpg" alt="samsung note8 blue"/>
+	    </div>
+	     <div class="card-title">
+	      <h4>Samsung Note8 Blue</h4>
+	      </div>
+	     <div class="card-footer">
+	    <a href="#/" class="add" data-price="65.00">Add to cart</a>
+	   <span class="price">$65.00</span>
+	  </div>
+     </div>
+	 
+	 <div class="card">
+	  <div class="card-inner">
+	   <img src="Image/product8.jpg" alt="samsung note8 black"/>
+	    </div>
+	     <div class="card-title">
+	      <h4>Samsung Note8 black</h4>
+	      </div>
+	     <div class="card-footer">
+	    <a href="#/" class="add" data-price="89.00">Add to cart</a>
+	   <span class="price">$89.00</span>
+	  </div>
+     </div>
+	 
+	 <div class="card">
+	  <div class="card-inner">
+	   <img src="Image/product9.jpg" alt="samsung note8 gold"/>
+	    </div>
+	     <div class="card-title">
+	      <h4>Samsung Note8 gold</h4>
+	      </div>
+	     <div class="card-footer">
+	    <a href="#/" class="add" data-price="85.00">Add to cart</a>
+	   <span class="price">$85.00</span>
+	  </div>
+     </div> 
+     <!--to add a cart, but only use once-->
+     <div id="cart">
+	  <!--add a title and style with card title-->
+	  <div class="cart-title">
+	<button class="buttonCart buttonCart1">Shopping Cart</button>
+	 </div>
+	 <!--to add cart list and style with card footer -->
+	 <div class="cart-footer">
+		 <table id="cart-list"></table>
+	 </div>
+	 <!--to add Total:$ and style with cart footer-->
+     <div class="cart-footer">
+		 <p>Total: $<span id="grandtotal">0.00</span></p>
+	 </div>
+</div>
+<!--call to JS and ensure cart functionality-->
+<script src="JS/cartscripts.js"></script>
+
+<!--break line-->
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br>
+<!--paragraph area -->
+<p>More details about phone please click the link below</p>
+<!--external link setting-->
+<h6><a href="https://www.apple.com/nz/" target="_blank">https://www.apple.com/nz</a></h6>
+<h6><a href="https://www.samsung.com/nz/" target="_blank">https://www.samsung.com/nz</a></h6>
+</body>
+</html>

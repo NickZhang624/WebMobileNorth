@@ -1,0 +1,111 @@
+<!--open html document-->
+<!DOCTYPE html>
+<!--head area setting-->
+<head>
+     <!--web title-->
+     <title>Mobile North Accessory Online Shop</title>
+     <!--meta info-->
+     <meta name ="author" content="Nick">
+	 <meta name ="subject" content="this site is about Mobile North Accessory Online shop">
+	 <meta name ="keywords" content="mobile, accessory, iphone, samsung">
+	 <!--link to css stylesheet-->
+	 <link rel="stylesheet" href="css/Style.css" type="text/css">
+	 <link rel="stylesheet" href="css/FormStyle.css" type="text/css">
+     <link rel="stylesheet" href="css/CardStyle.css" type="text/css">	 
+</head>
+<!--body area setting-->
+<body>
+     <!--to add a shopping cart in the page, but only functional in mobile accessories page-->
+     <div id="cart">
+      <div class="cart-title">
+       <button class="buttonCart buttonCart1">Shopping Cart</button>
+        </div>
+         <div class="cart-footer">
+          <table id="cart-list"></table>
+         </div>
+        <div class="cart-footer">
+       <p>Total: $<span id="grandtotal">0.00</span></p>
+      </div>
+     </div>
+<!--navigation bar area-->
+<nav>
+     <ul>
+	     <!--internal link about these website pages-->
+	     <li><a href="Homepage.html">Home</a></li>
+         <li><a href="Mobile Accessories page.html">Mobile Accessories</a></li>
+	     <li><a href="Contact us page.html">Contact us</a></li>
+	     <li><a href="About us page.html">About us</a></li>
+	 </ul>
+</nav>
+<!--break line-->
+<br><br><br><br><br><br><br><br>
+
+<div class="form">
+<!--name form for the function check data in textboxe through the validation form function-->
+<form name="myForm" onsubmit="return validateForm()" method="post">
+	 <!--define the form fields and the type i.e textbox-->
+     <fieldset>
+	 <!--Title of the textbox-->
+     <legend>Contact us:</legend>
+	     <!--give it text type and preset placeholder are text-->
+		 <h3>*First Name:<input type="text" name="firstname" 
+	     placeholder="Please enter your First Name"></h3>
+	     <h3>*Last Name:<input type="text" name="lastname"
+	     placeholder="Please enter your Last Name"></h3>
+	     <h3>*Email Address:<input type="text" name="email"
+	     placeholder="Enter a valid email address"></h3>
+	     <h3>Comment:<textarea name="comment"
+	     placeholder="Your precious opinion will help us continual improvement"
+	     style="font-size:15px"></textarea></h3>
+	 <!--Set a submit and reset type--> 
+	 <input type="submit" value="Submit">
+	 <input type="reset" value="Reset">
+     </fieldset>
+</form>
+</div>
+<!--link to JS validation form function-->
+<script src="JS/validation.js"></script>
+
+<div class="form">
+<form name="myForm1" onsubmit="return validateForm1()" method="post">
+     <fieldset>
+     <legend>Special Order Form:</legend>
+     
+	     <h3>*Name:<input type="text" name="name"
+	     placeholder="Please enter your name"></h3>
+         <h3>*Email:<input type="text" name="Email"
+	     placeholder="Please enter your Email"></h3>
+         <h3>*Phone Number:<input type="text" name="Phone Number"
+	     placeholder="Please enter a vaild mobile number"></h3>
+         <h3>*Order Detail:<textarea name="Order Detail"
+	     placeholder="Please leave your sepcial order details, like:Phone Model, color, function and others requirements"
+	     style="font-size:15px"></textarea></h3>
+     
+	 <input type="submit" value="Send to us">
+     </fieldset>
+</form>
+</div>
+<script src="JS/validation1.js"></script>
+<!--Break line-->	
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<!--paragraph area-->
+<p>Contact details for Mobile North</p><br>
+<h5>Address<br>
+89 Tremaine Ave, Palmerston North, New Zealand</h5>
+<h5>Phone<br>
+063562277</h5>
+<h5>Website Address<br>
+<!--external link setting-->
+<a href="Homepage.html" target="_blank">www.MobileNorth.co.nz</a></h5>
+<h5>Email<br>
+<a href="#">mobilenorth@xtra.co.nz</a></h5>
+<br>
+<h5>Find us in Google Map below</h5>
+<!--iframe setting by source from Google map-->
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d40912.90768690284!2d175.58687220355074!3d-40.345228491936254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d41b32cbd54eee7%3A0x8e0cc79262e25aaf!2s589+Tremaine+Ave%2C+Palmerston+North%2C+4410!5e0!3m2!1sen!2snz!4v1537248523189"
+width="100%" height="500px" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+</body>
+</html>
